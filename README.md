@@ -1,5 +1,5 @@
 
-> このページを開く [https://tanagogedora.github.io/bmp280betavrjp/](https://tanagogedora.github.io/bmp280betavrjp/)
+> このページを開く [https://tanagogedora.github.io/bmp280betaVrJP/](https://tanagogedora.github.io/bmp280betavrjp/)
 
 ## 拡張機能として使用
 
@@ -8,7 +8,7 @@
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **新しいプロジェクト** をクリックしてください
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/tanagogedora/bmp280betavrjp** を検索してインポートします。
+* **https://github.com/tanagogedora/bmp280betaVrJP** を検索してインポートします。
 
 ## このプロジェクトを編集します
 
@@ -16,7 +16,7 @@ MakeCode でこのリポジトリを編集します。
 
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/tanagogedora/bmp280betavrjp** を貼り付けてインポートをクリックしてください
+* **https://github.com/tanagogedora/bmp280betaVrJP** を貼り付けてインポートをクリックしてください
 
 #### メタデータ (検索、レンダリングに使用)
 
