@@ -1,7 +1,21 @@
 MIT License
 
-Originally Copyright (c) 2018, microbit/micropython Chinese community  
-Modified and ported for BMP280 by Tanagotti, 2025
+Portions Copyright (c) 2018, microbit/micropython Chinese community  
+Modified and extended by Tanagotti, 2025
+
+This extension is based on the original MicroPython code for the BMP280 sensor by the Chinese community.  
+Major modifications include:
+
+- 🌐 UI localization: Changed from English-only to bilingual (English and Japanese) block definitions and documentation.
+- 📏 Data formatting:  
+  - Temperature is now shown with one decimal place (was integer only).  
+  - Pressure is now displayed with rounding to the second decimal place for both Pa and hPa (was truncated to integer).
+- 🧹 Code structure: Reorganized the source into a TypeScript namespace. Added detailed inline annotations in both English and Japanese for educational use.
+- 🧲 Output consistency: Modified temperature and pressure display logic to apply consistent rounding instead of truncation.
+
+These improvements enhance readability and usability in bilingual STEM education environments, particularly for students conducting experiments with micro:bit and BMP280 sensors.
+
+---
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,4 +34,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
