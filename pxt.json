@@ -1,6 +1,8 @@
 {
     "name": "bmp280betaVrJp",
-    "description": "",
+    "description": "BMP280 sensor extension with bilingual blocks (EN/JP)",
+    "version": "1.10",
+    "icon": "icons/BMP280jp.png", 
     "dependencies": {
         "core": "*",
         "radio": "*",
