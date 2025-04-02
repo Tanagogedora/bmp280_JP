@@ -37,7 +37,7 @@ Sensor values are based on the official BMP280 datasheet.
 
 ### 🖼 Example Blocks / ブロック例
 
-![BMP280 ブロック](https://github.com/Tanagogedora/bmp280betaVrJP/blob/master/BMP280BLOCK .png?raw=true)
+![BMP280 ブロック](https://github.com/Tanagogedora/bmp280betaVrJP/blob/master/BMP280block.png?raw=true)
 
 ---
 
