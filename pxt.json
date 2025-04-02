@@ -2,6 +2,7 @@
     "name": "bmp280betaVrJp",
     "description": "BMP280 sensor extension with bilingual blocks (EN/JP)",
     "version": "1.10",
+    "license": "MIT",
     "icon": "icons/BMP280jp.png", 
     "dependencies": {
         "core": "*",
