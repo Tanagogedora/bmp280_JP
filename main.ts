@@ -289,7 +289,7 @@ namespace BMP280 {
 				 * Power On
 				 * 起動
 				 */
-    				 	//% blockId="BME280_POWER_ON"
+    				 	//% blockId="BMP280_POWER_ON"
 					//% block="Power On Sensor /センサー起動"
 					//% weight=22 blockGap=8
 						export function PowerOn() {
@@ -300,7 +300,7 @@ namespace BMP280 {
 				 * Power OFF
 				 * センサー停止
 				*/
-    				 	//% blockId="BME280_POWER_OFF"
+    				 	//% blockId="BMP280_POWER_OFF"
 					//% block="Power OFF Sensor/センサー停止"
     				 	//% weight=21 blockGap=8
     						export function PowerOff() {
@@ -397,7 +397,7 @@ namespace BMP280 {
  			* 
  			*  @param addr I2C address to set / 設定する I2C アドレス
  			*/
-    			//% blockId="BME280_SET_ADDRESS"
+    			//% blockId="BMP280_SET_ADDRESS"
 				//% block="I2C Address/I2Cアドレス %addr"
     			//% weight=20 blockGap=8
     			export function Address(addr: BMP280_I2C_ADDRESS) {
