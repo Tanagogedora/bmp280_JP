@@ -289,7 +289,7 @@ namespace BMP280 {
 				 * Power On
 				 * 起動
 				 */
-    				 	//% blockId="BMP280_POWER_ON"
+    				//% blockId="BMP280_POWER_ON"
 					//% block="Power On Sensor /センサー起動"
 					//% weight=22 blockGap=8
 						export function PowerOn() {
@@ -300,9 +300,9 @@ namespace BMP280 {
 				 * Power OFF
 				 * センサー停止
 				*/
-    				 	//% blockId="BMP280_POWER_OFF"
+    				 //% blockId="BMP280_POWER_OFF"
 					//% block="Power OFF Sensor/センサー停止"
-    				 	//% weight=21 blockGap=8
+    				//% weight=21 blockGap=8
     						export function PowerOff() {
         						setreg(0xF4, 0)
     						}
@@ -353,7 +353,7 @@ namespace BMP280 {
     				}
 
 			/**
- 			* Triggered when pressure is Lower than a specified value.
+ 			* Triggered when temperature is Lower than a specified value.
  			* 気温が指定値より低い場合
  			*
  			* @param dat Threshold value / しきい値（C）
@@ -372,7 +372,7 @@ namespace BMP280 {
         				})
    				 }
 			/**
- 			* Triggered when pressure is Lower than a specified value.
+ 			* Triggered when temperature is Lower than a specified value.
  			* 気温が指定値より低い場合
  			*
  			* @param dat Threshold value / しきい値（C）
