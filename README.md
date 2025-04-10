@@ -18,6 +18,25 @@ Sensor values are based on the official BMP280 datasheet.
 
 ---
 ## 📦 How to Use / 使い方
+🎯 The following sample (block/script) performs the following actions:
+
+Connects the BMP280 weather sensor to the micro:bit via I2C (address: 0x77).
+
+Initializes the BMP280 so it can measure temperature and atmospheric pressure.
+
+Pressing button A displays the temperature (in Celsius, with one decimal place) on the micro:bit LED.
+
+Pressing button B displays the air pressure (in hPa, with one decimal place) on the micro:bit LED.
+
+🎯 次のサンプル（ブロック／スクリプト）は、以下のような動作を行います。
+
+I2C接続により、気象センサー BMP280 と micro:bit が接続されます（アドレス：0x77）。
+
+BMP280 が有効化され、気温・気圧の測定が可能になります。
+
+ボタンA を押すと、micro:bit のLEDに 気温（摂氏・小数第1位） が表示されます。
+
+ボタンB を押すと、micro:bit のLEDに 気圧（hPa・小数第1位） が表示されます。
 ### As a MakeCode Extension
 1. Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 1. Create a new project
