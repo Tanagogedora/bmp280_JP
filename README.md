@@ -43,14 +43,14 @@ Sensor values are based on the official BMP280 datasheet.
 
 #### script(javasucript) / スクリプト（javascript） 
 
-input.onButtonPressed(Button.A, function () { 
-   basic.showNumber(BMP280.temperature(BMP280.BMP280_T.T_C)) 
-}) 
-input.onButtonPressed(Button.B, function () { 
-   basic.showNumber(BMP280.pressure(BMP280.BMP280_P.Pa)) 
-}) 
+input.onButtonPressed(Button.A, function () {  
+    basic.showString("" + BMP280.temperature(BMP280.BMP280_T.T_C) + "C")  
+})  
+input.onButtonPressed(Button.B, function () {  
+    basic.showString("" + BMP280.pressure(BMP280.BMP280_P.hPa) + "hPa")  
+})  
 BMP280.Address(BMP280.BMP280_I2C_ADDRESS.ADDR_0x77)  
-BMP280.PowerOn() 
+BMP280.PowerOn()  
 
 ---
 
