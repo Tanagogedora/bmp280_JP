@@ -42,15 +42,16 @@ Sensor values are based on the official BMP280 datasheet.
 ![BMP280 ブロック](https://github.com/Tanagogedora/bmp280betaVrJP/blob/main/BMP280block.png?raw=true)
 
 #### script(javasucript) / スクリプト（javascript） 
-```javascript  
+```javascript
+BMP280.Address(BMP280.BMP280_I2C_ADDRESS.ADDR_0x77)  
+BMP280.PowerOn()  
 input.onButtonPressed(Button.A, function () {  
     basic.showString("" + BMP280.temperature(BMP280.BMP280_T.T_C) + "C")  
 })  
 input.onButtonPressed(Button.B, function () {  
     basic.showString("" + BMP280.pressure(BMP280.BMP280_P.hPa) + "hPa")  
 })  
-BMP280.Address(BMP280.BMP280_I2C_ADDRESS.ADDR_0x77)  
-BMP280.PowerOn()  
+
 ```
 
 ---
