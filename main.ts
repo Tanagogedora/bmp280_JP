@@ -165,9 +165,12 @@ namespace BMP280 {
 				// BMP280温度・気圧補正用キャリブレーションパラメータのレジストリ　
            　　// dig_T1 to dig_T3: temperature/気温補正
            　　// dig_P1 to dig_P9: pressuere/気圧補正
+
+           　　// Temperature calibration parameters / 気温補正用パラメータ
            　　		let dig_T1 = getUInt16LE(0x88);
            　　		let dig_T2 = getInt16LE(0x8A);
            　　		let dig_T3 = getInt16LE(0x8C);
+           　　// Pressure calibration parameters / 気圧補正用パラメータ
            　　		let dig_P1 = getUInt16LE(0x8E);
            　　		let dig_P2 = getInt16LE(0x90);
            　　		let dig_P3 = getInt16LE(0x92);
@@ -243,13 +246,12 @@ namespace BMP280 {
 				}
 
 			/**
- 			*  Get pressure value from BMP280 sensor
- 			*  BMP280 センサーから気圧を取得します
+ 			*  Get pressure value from BMP280 sensor/ BMP280 センサーから気圧を取得します
  			* 
  			*  @param u Pressure unit (Pa or hPa) / 気圧の単位（Pa または hPa）
  			*  @returns Pressure value / 気圧の値（単位に応じた小数第1位）
  			*/
-    				//% blockId="BMP280_GET_PRESSURE"
+				//% blockId="BMP280_GET_PRESSURE"
 				//% block="Pressuer/気圧 %u"
     				//% weight=80 blockGap=8
 					export function pressure(u: BMP280_P): number {
@@ -264,8 +266,7 @@ namespace BMP280 {
 					}
 
 			/**
- 			* Get temperature value from BMP280 sensor
- 			* BMP280 センサーから気温を取得します
+ 			* Get temperature value from BMP280 sensor / BMP280 センサーから気温を取得します
  			*
  			* @param u Temperature unit (C or F) / 温度の単位（C または F）
  			* @returns Temperature value / 気温の値（単位に応じた小数第1位）
@@ -286,8 +287,7 @@ namespace BMP280 {
 			//Sensor power control (Power ON and OFF)
 			//センサーの電源管理（起動と停止）
 				/**
-				 * Power On
-				 * 起動
+				 * Power On / 起動
 				 */
     				//% blockId="BMP280_POWER_ON"
 					//% block="Power On Sensor /センサー起動"
@@ -297,8 +297,7 @@ namespace BMP280 {
 						 }
 
 				/**
-				 * Power OFF
-				 * センサー停止
+				 * Power OFF / センサー停止
 				*/
     				 //% blockId="BMP280_POWER_OFF"
 					//% block="Power OFF Sensor/センサー停止"
@@ -313,8 +312,7 @@ namespace BMP280 {
 			 */
 
 			/**
- 			* Triggered when pressure is Lower than a specified value.
- 			* 気圧が指定値より低い場合
+ 			* Triggered when pressure is Lower than a specified value. / 気圧が指定値より低い場合
  			*
  			* @param dat Threshold value / しきい値（Pa）
  			* @param body Action to perform / 実行する処理
@@ -333,8 +331,7 @@ namespace BMP280 {
     				}
 
 			/**
- 			* Triggered when pressure is Higher than a specified value.
- 			* 気圧が指定値より高い場合
+ 			* Triggered when pressure is Higher than a specified value. / 気圧が指定値より高い場合
  			*
  			* @param dat Threshold value / しきい値（Pa）
  			* @param body Action to perform / 実行する処理
@@ -353,8 +350,7 @@ namespace BMP280 {
     				}
 
 			/**
- 			* Triggered when temperature is Lower than a specified value.
- 			* 気温が指定値より低い場合
+ 			* Triggered when temperature is Lower than a specified value. / 気温が指定値より低い場合
  			*
  			* @param dat Threshold value / しきい値（C）
  			* @param body Action to perform / 実行する処理
@@ -372,8 +368,7 @@ namespace BMP280 {
         				})
    				 }
 			/**
- 			* Triggered when temperature is Lower than a specified value.
- 			* 気温が指定値より低い場合
+ 			* Triggered when temperature is Higher than a specified value. / 気温が指定値より高い場合
  			*
  			* @param dat Threshold value / しきい値（C）
  			* @param body Action to perform / 実行する処理
@@ -392,8 +387,7 @@ namespace BMP280 {
     				}
 
 			/**
- 			* Set the I2C address of the BMP280 sensor.
- 			* BMP280 の I2C アドレスを設定
+ 			* Set the I2C address of the BMP280 sensor.　/ BMP280 の I2C アドレスを設定
  			* 
  			*  @param addr I2C address to set / 設定する I2C アドレス
  			*/
