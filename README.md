@@ -42,7 +42,7 @@ Sensor values are based on the official BMP280 datasheet.
 ![BMP280 ブロック](https://github.com/Tanagogedora/bmp280betaVrJP/blob/main/BMP280block.png?raw=true)
 
 #### script(javasucript) / スクリプト（javascript） 
-'''javascript
+'''javascript  
 input.onButtonPressed(Button.A, function () {  
     basic.showString("" + BMP280.temperature(BMP280.BMP280_T.T_C) + "C")  
 })  
