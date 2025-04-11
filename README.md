@@ -53,7 +53,7 @@ Sensor values are based on the official BMP280 datasheet.
 
 #### 🧱　Blocks / ブロック
 English
-![BMP280 ブロック]
+![BMP280 ブロック]<br>
 <img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="400">
 #### 💻 javascript/ スクリプト 
 ```javascript
