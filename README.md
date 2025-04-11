@@ -19,7 +19,7 @@ Sensor values are based on the official BMP280 datasheet.
 ---
 ## 📦 How to Use / 使い方
 
-### As a MakeCode Extension/ MakeCode 拡張機能としての使用方/
+### As a MakeCode Extension　/ MakeCode 拡張機能としての使用方　
 1. Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 1. Create a new project
 1. Click the gear icon (⚙) → "Extensions"
