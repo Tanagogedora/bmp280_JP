@@ -19,7 +19,7 @@ Sensor values are based on the official BMP280 datasheet.
 ---
 ## 📦 How to Use / 使い方
 
-### As a MakeCode Extension
+### As a MakeCode Extension/ MakeCode 拡張機能としての使用方/
 1. Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 1. Create a new project
 1. Click the gear icon (⚙) → "Extensions"
@@ -27,8 +27,6 @@ Sensor values are based on the official BMP280 datasheet.
    `https://github.com/tanagogedora/bmp280betaVrJP`   
 
 ---
-
-### MakeCode 拡張機能としての使用方法
 
 1. MakeCode [https://makecode.microbit.org/](https://makecode.microbit.org/)を開く
 1. 「新しいプロジェクト」をクリック
@@ -77,16 +75,14 @@ input.onButtonPressed(Button.B, function () {
 
 ---
 
-### ✏️ To modify the extension source code in MakeCode:
+### ✏️ To modify the extension source code in MakeCode /  MakeCode 上で編集 : 
 
 1. Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 1. Click "Import" → "Import URL"
 1. Paste this URL
 `https://github.com/tanagogedora/bmp280betaVrJP`  
 
----
-
-### ✏️ MakeCode 上で編集
+--- 
 
 1. MakeCode [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 1. 「読み込む」→「URLから読み込む…」を選択
@@ -96,7 +92,6 @@ input.onButtonPressed(Button.B, function () {
 ---
 
 ## 🧪 Sensor Specification (Based on Datasheet) / 測定仕様（参考：データシートより）
-
 
 | Measurement(測定対象) | Range(範囲) | Accuracy(精度) | Resolution(分解能) |
 |-----------|------------------|-------------------|--------------------|
@@ -128,7 +123,7 @@ Original Source: http://www.micropython.org.cn
 
 
 
-## 📝 ライセンス
+## 📝 License / ライセンス
 
 © 2025 Tanagotti  
 Based on BME280 code by the microbit/micropython Chinese community (2018)  
@@ -139,7 +134,7 @@ Original Source: http://www.micropython.org.cn
   
 ---
 
-## 🔍 メタデータ（MakeCode レンダリング用）
+## 🔍 MakeCode Rendering Metadata / メタデータ（MakeCode レンダリング用）
 
 ```html
 <script src="https://makecode.com/gh-pages-embed.js"></script>
