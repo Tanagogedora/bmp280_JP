@@ -53,8 +53,14 @@ Sensor values are based on the official BMP280 datasheet.
 
 #### 🧱　Blocks / ブロック
 English
-![BMP280 ブロック]<br>
-<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="400">
+<br>
+<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="400" alt="MakeCode blocks (English UI)">
+<br>
+日本語
+<br>
+<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockjp.png" width="400" alt="ブロック構成例">
+<br>
+
 #### 💻 javascript/ スクリプト 
 ```javascript
 BMP280.Address(BMP280.BMP280_I2C_ADDRESS.ADDR_0x77)  
