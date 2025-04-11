@@ -54,11 +54,11 @@ Sensor values are based on the official BMP280 datasheet.
 #### 🧱　Blocks / ブロック
 English
 <br>
-<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="400" alt="MakeCode blocks (English UI)">
+<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="600" alt="MakeCode blocks (English UI)">
 <br>
 日本語
 <br>
-<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockjp.png" width="400" alt="ブロック構成例">
+<img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockjp.png" width="600" alt="ブロック構成例">
 <br>
 
 #### 💻 javascript/ スクリプト 
