@@ -130,7 +130,7 @@ Based on BME280 code by the microbit/micropython Chinese community (2018)
 Original Source: http://www.micropython.org.cn  
 （元コード：microbit/micropython 中国コミュニティによる BME280 実装）
 
-### [参考]　📄 [日本語版ライセンスはこちら（日本語ライセンスを読む（GitHub Pages））](https://tanagogedora.github.io/bmp280betaVrJP/license_jp.html)
+### [参考]　📄 [日本語版ライセンスはこちら](https://tanagogedora.github.io/bmp280betaVrJP/license_jp.md)
 
 ---
 
