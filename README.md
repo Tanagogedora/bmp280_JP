@@ -49,7 +49,7 @@ Sensor values are based on the official BMP280 datasheet.
 - **ボタンB** を押すと、micro:bit のLEDに **気圧（hPa・小数第1位）** が表示されます。
 
 
-#### 🧱　Blocks / ブロック
+#### 🧱　Sample Blocks / ブロックの使用例
 English
 <br>
 <img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockeg.png" width="600" alt="MakeCode blocks (English UI)">
@@ -60,7 +60,7 @@ English
 <img src="https://github.com/Tanagogedora/bmp280betaVrJP/raw/main/Blockjp.png" width="600" alt="ブロック構成例">
 <br>
 
-#### 💻 javascript/ スクリプト 
+#### 💻 Sample Code / JavaScriptサンプル
 ```javascript
 BMP280.Address(BMP280.BMP280_I2C_ADDRESS.ADDR_0x77)  
 BMP280.PowerOn()  
