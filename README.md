@@ -105,15 +105,13 @@ input.onButtonPressed(Button.B, function () {
 
 ※ 上記の値は BMP280 の公式データシートに基づく参考値です。
 
-## 📝 Acknowledgement
+## 📝 Acknowledgement　/　謝辞・ベースとなった実装について
 
 This extension is based on the BME280 TypeScript implementation originally developed by the microbit/micropython Chinese community (2018).  
 However, due to differences in initialization and control flow, this version has been re-implemented specifically for the BMP280 sensor.  
 We adapted and extended it for use in Japanese educational contexts, adding Japanese block support and improved decimal precision for science experiments.
 
 Original Source: http://www.micropython.org.cn
-
-## 📝 謝辞・ベースとなった実装について
 
 本拡張機能は、microbit/micropython 中国コミュニティ（2018年）による BME280 TypeScript 実装をもとに開発しています。  
 ただし、BME280 向け実装とは初期化方法や制御仕様が異なるため、本拡張機能は BMP280 専用として新たに移植・再構築されたものです。  
