@@ -13,7 +13,7 @@ Sensor values are based on the official BMP280 datasheet.
 ✅ この拡張機能は、すべてのブロック定義および説明が **日本語と英語の併記**により構成され、多言語に対応しています。
 
 
-> 🔗 **Demo Page:**デモページを見る: [https://tanagogedora.github.io/bmp280betaVrJP/](https://tanagogedora.github.io/bmp280betaVrJP/)
+> 🔗 **Demo Page:**デモページを見る: [https://tanagogedora.github.io/bmp280_JP/](https://tanagogedora.github.io/bmp280_JP/)
 
 ---
 ## 📦 How to Use / 使い方
