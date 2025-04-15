@@ -1,6 +1,6 @@
 # MITライセンス / MIT License(日本語参考資料)
 
-## 本拡張機能は、microbit/micropython Chinese Community による BMP280 コードの一部を引用し、それに基づいて Tanagotti が日本語対応や機能拡張を施したものです（2025年）。
+## 本拡張機能は、microbit/micropython Chinese Community による BME280 コードの一部を引用し、それに基づいて Tanagotti が日本語対応や機能拡張を施したものです（2025年）。
 ## 元コードのライセンス（MIT）を尊重し、必要な著作権表示と変更内容の明示を行っています。
   
 ## 本拡張機能は、microbit/micropython Chinese Community によって開発された BMP280 センサー用 MicroPython コードを基本としています。  
