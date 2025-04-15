@@ -1,7 +1,6 @@
 # BMP280 Sensor Extension for micro:bit
 # micro:bit 用 BMP280 センサー拡張機能
 
-> ⚠️ **この拡張機能は現在ベータ版です。動作確認中の機能が含まれます。ご使用の際はご注意ください。**
 
 This extension allows the micro:bit to communicate with a BMP280 digital pressure and temperature sensor via I2C.  
 You can measure atmospheric pressure and temperature.  
