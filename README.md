@@ -134,11 +134,21 @@ Original Source: http://www.micropython.org.cn
 
 ---
 
-## 🔍 MakeCode Rendering Metadata / メタデータ（MakeCode レンダリング用）
-
-```html
-<script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>
-makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");
-</script>
-
+<!--
+# meta
+{
+  "name": "bmp280_JP",
+  "description": "A bilingual extension for using the BMP280 pressure and temperature sensor with micro:bit / micro:bit用 BMP280センサー拡張機能（日英対応）",
+  "dependencies": {
+    "core": "*",
+    "microbit": "*"
+  },
+  "files": [
+    "main.ts"
+  ],
+  "supportedTargets": [
+    "microbit"
+  ],
+  "preferredEditor": "tsprj"
+}
+-->
