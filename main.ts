@@ -32,29 +32,22 @@
 * BMP280 センサー用のブロック群です。
 * 気温・気圧の取得や電源制御などを行います。
 */
-
-namespace BMP280 {
-
-	// Specify the type and color of the block icon / ブロックアイコンの種類と色を指定
-    //% weight=100 color=#70c0f0 icon="\uf042" block="BMP280"
-
-	//Enum Definitions / 列挙型の定義
-
-    //I2C address/I2Cアドレス
-		export enum BMP280_I2C_ADDRESS {
-    //Address selection: 0x76 or 0x77 / アドレスの選択：0x76 または 0x77
-    	//% block="0x76" 
+//Enum Definitions / 列挙型の定義
+//I2C address/I2Cアドレス
+export enum BMP280_I2C_ADDRESS {
+	//Address selection: 0x76 or 0x77 / アドレスの選択：0x76 または 0x77
+	//% block="0x76" 
     		ADDR_0x76 = 0x76,
-	   //% block="0x77"
+	//% block="0x77"
     		ADDR_0x77 = 0x77
-		}
+	}
 	//Temperature Unit / 気温の単位
 	// Temperature units: C (Celsius) or F (Fahrenheit) / 温度単位：C（摂氏）または F（華氏）
 		export enum BMP280_T {
-    	//% block="C"
-    		T_C = 0,
-    	//% block="F"
-    		T_F = 1
+    		//% block="C"
+    			T_C = 0,
+    		//% block="F"
+    			T_F = 1
 		}
 	// Pressure Unit / 気圧の単位
 	// Pressure units: Pa or hPa / 単位：Pa（パスカル）または hPa（ヘクトパスカル）
