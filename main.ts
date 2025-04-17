@@ -32,6 +32,7 @@
 * BMP280 センサー用のブロック群です。
 * 気温・気圧の取得や電源制御などを行います。
 */
+namespace BMP280 {
 //Enum Definitions / 列挙型の定義
 //I2C address/I2Cアドレス
 export enum BMP280_I2C_ADDRESS {
